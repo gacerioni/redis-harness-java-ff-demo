@@ -7,7 +7,7 @@ service:
 # this is gonna be fun... I need to pass a private key to a secret in the namespace, for TLS
 # Im gonna use Harness to save the certificate + key as Secrets in my Vault
 ingress:
-  enabled: false
+  enabled: true
   className: "nginx"
   hosts:
     - host: demo.platformengineer.io
